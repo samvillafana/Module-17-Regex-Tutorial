@@ -21,7 +21,7 @@ function createUser(name, age, city) {
 }
 
 // Create a user without using the `new` keyword different from how we do it with classes.
-const userOne = createUser('Beverly', 58, 'Phoenix')
+const userOne = createUser('Sam', 40, 'New York')
 
 // Call the two methods attached to our `createUser` function to see if the user object is logging the correct values.
 userOne.introduceSelf()
